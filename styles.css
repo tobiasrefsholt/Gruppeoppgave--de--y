@@ -1,0 +1,33 @@
+.sea{
+    background-color: blue;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.grid {
+    background-image: url(/img/island.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 5/2;
+    position: relative;
+    /* height: 100vh; */
+}
+
+#greta {
+    background-image: url(/img/);
+}
+
+#oranges {
+    background-image: url(/img/);
+}
+
+#pump {
+    background-image: url(/img/pump.png);
+}
+
+    
