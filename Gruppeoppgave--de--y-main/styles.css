@@ -1,0 +1,58 @@
+.sea{
+    background-color: blue;
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.grid {
+    /* display: grid;
+    grid-template-columns: repeat(3, auto); */
+    background-image: url(/img/island.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 5/2;
+    position: relative;
+    /* height: 100vh; */
+}
+
+#pictures > div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 8;
+    position: absolute;
+}
+#greta {
+    background-image: url(/img/gretha.png);
+    z-index: 8;
+    width: 23%;
+    height: 23%;
+    margin-left: 44%;
+    margin-top: 21%;
+
+}
+
+#oranges {
+    background-image: url(/img/oranges.png);
+    width: 10%;
+    height: 10%;
+    margin-left: 38%;
+    margin-top: 26%;
+    cursor: pointer;
+
+}
+
+#pump {
+    background-image: url(/img/pump2.png);
+    width: 20%;
+    height: 20%;
+    margin-left: 50%;
+    margin-top: 23%;
+    cursor: pointer;
+}
+
+    
